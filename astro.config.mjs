@@ -10,4 +10,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  site: 'https://c-labpl.github.io',
+  base: '/c-labpl2',
 });
